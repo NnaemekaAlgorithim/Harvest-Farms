@@ -1,0 +1,5 @@
+Harvest-env/
+HarvestKey.pem
+Harvest_website/Harvest_website/__pycache__/
+Harvest_website/Harvest_app/__pycache__/
+Harvest_website/Harvest_app/migrations/
