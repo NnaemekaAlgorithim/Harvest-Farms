@@ -4,10 +4,10 @@ def home(request):
     return render(request, 'home.html')
 
 def contacts(request):
-    return render(request, 'static/contacts.html')
+    return render(request, 'contacts.html')
 
 def aboutUs(request):
-    return render(request, 'static/about-us.html')
+    return render(request, 'about-us.html')
 
 def typography(request):
-    return render(request, 'static/typography.html')
+    return render(request, 'typography.html')

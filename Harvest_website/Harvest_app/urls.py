@@ -6,7 +6,7 @@ from .views import typography
 
 urlpatterns = [
     path('', home, name='home.html'),
-    path('static/contacts.html/', contacts, name='contacts'),
-    path('static/about-us.html/', aboutUs, name='about-us'),
-    path('static/typography.html/', typography, name='typography'),
+    path('contacts.html/', contacts, name='contacts'),
+    path('about-us.html/', aboutUs, name='about-us'),
+    path('typography.html/', typography, name='typography'),
 ]
